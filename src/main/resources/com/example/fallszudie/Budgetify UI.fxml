@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<SplitPane dividerPositions="0.2768211920529801" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="486.0" prefWidth="757.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+    <items>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+            <children>
+                <ChoiceBox layoutX="28.0" layoutY="25.0" prefWidth="150.0" />
+                <Button layoutX="28.0" layoutY="77.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="150.0" text="Neu Anlage" />
+                <Button layoutX="28.0" layoutY="121.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="150.0" text="Löschen" />
+                <Circle fill="DODGERBLUE" layoutX="47.0" layoutY="451.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+                <Label layoutX="74.0" layoutY="443.0" text="User " />
+            </children></AnchorPane>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+            <children>
+                <Label layoutX="24.0" layoutY="23.0" prefHeight="27.0" prefWidth="171.0" text="Budget-Bezeichnung">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                </Label>
+                <Label layoutX="214.0" layoutY="27.0" text="Gesamtvolumen:">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </Label>
+                <Label layoutX="341.0" layoutY="26.0" text="Betrag in €">
+                    <font>
+                        <Font size="17.0" />
+                    </font>
+                </Label>
+                <ProgressBar layoutX="24.0" layoutY="70.0" prefHeight="27.0" prefWidth="444.0" progress="0.0" />
+                <Label layoutX="24.0" layoutY="97.0" text="Verbraucht in %" />
+                <Label layoutX="214.0" layoutY="124.0" text="Restvolumen:">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Label>
+                <Label layoutX="341.0" layoutY="125.0" text="Betrag in €" textFill="RED" />
+                <Label layoutX="214.0" layoutY="153.0" text="Fälligkeit:" />
+                <DatePicker layoutX="318.0" layoutY="148.0" prefHeight="27.0" prefWidth="150.0" />
+                <Label layoutX="24.0" layoutY="197.0" text="Positionen:">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </Label>
+                <TableView layoutX="24.0" layoutY="217.0" prefHeight="191.0" prefWidth="444.0">
+                    <columns>
+                        <TableColumn prefWidth="240.0" text="Positionsbezeichnung" />
+                        <TableColumn prefWidth="203.0" text="Betrag in €" />
+                    </columns>
+                </TableView>
+                <Button layoutX="353.0" layoutY="431.0" mnemonicParsing="false" text="Budget Anpassen" />
+            </children></AnchorPane>
+    </items>
+</SplitPane>

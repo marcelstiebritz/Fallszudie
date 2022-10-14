@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label layoutX="193.0" layoutY="14.0" text="Add-User to System">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Label>
+        <TextField layoutX="32.0" layoutY="71.0" prefHeight="36.0" prefWidth="179.0" promptText="frist-name" />
+        <TextField layoutX="228.0" layoutY="71.0" prefHeight="36.0" prefWidth="179.0" promptText="last-name" />
+        <TextField layoutX="32.0" layoutY="120.0" prefHeight="36.0" prefWidth="179.0" promptText="User-ID" />
+        <TextField layoutX="228.0" layoutY="120.0" prefHeight="36.0" prefWidth="179.0" promptText="Password" />
+        <Label layoutX="32.0" layoutY="177.0" prefHeight="30.0" prefWidth="198.0" text="Chose user-rights">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <ChoiceBox layoutX="230.0" layoutY="177.0" prefHeight="36.0" prefWidth="179.0" />
+    </children>
+</Pane>
